@@ -1,0 +1,12 @@
+body{font-family: 'Arial';
+	 font-size: 12px; 
+	 line-height:2em;
+	 color:gray;
+	  }
+a{font-family:#727272;}
+a:link{color:gray;text-decoration:none;}
+a:hover{text-decoration:underline;}
+div{font-size:14px;color:#b9f605;font-weight:bolder;}
+a.la:link{text-decoration:none;color:white;}
+a.la1:hover{color: #b9f605;}
+a.la2:link{text-decoration:none;color:#fdb306;}
