@@ -1,3 +1,5 @@
 a.m:link{font-size:14px;}
 a.g:hover{color: #b9f605;font-size:14px;text-decoration:none;}
 .h{letter-spacing:40px;}
+.lm{list-style-type: disc;}
+.lt{list-style-image: url(tubiao.png);}

@@ -2,7 +2,10 @@ body{font-family: 'Arial';
 	 font-size: 12px; 
 	 line-height:2em;
 	 color:gray;
-	  }
+	}
+table.bg1{background-image:url(images/bg.gif);}
+table.bg2{background-image:url(images/banner.jpg);}
+ul{list-style-type:none;}
 a{font-family:#727272;}
 a:link{color:gray;text-decoration:none;}
 a:hover{text-decoration:underline;}
