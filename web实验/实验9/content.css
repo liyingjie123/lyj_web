@@ -1,0 +1,13 @@
+#content{width:1060px;height:830px;margin:10px 100px;}
+#content_left{float:left;width:690px;height:629px;margin:30px 5px;}
+#content_right{float:left;width:14px;height:609px;margin:40px 50px;}
+#zx{background-image: url(images/bg.png);width:300px;height:259px;border:1px solid #c9baa5;margin-bottom: 20px}
+#zj{width:200px;padding:10px 50px;margin-bottom: 10px;}
+#gg{width:300px;height:208px;}
+#mj{width:100px;padding:10px 100px}
+#jg{background-image: url(images/show_bg.png);width:300px;height:365px;background-size:100% 100%;margin-left:0px;}
+#biaoti{width:240px;height:50px;line-height: 45px;font-size: 16px;border-bottom: 1px solid #c9baa5;padding:0px 245px;}
+#neirong{width:690px;height:659px;line-height: 28px;font-size: 14px;padding:10px;}
+#wei{width:690px;height:50px;font-size: 13px;margin-right: 40px;}
+.lh{line-height: 30px;}
+#gd2{background-image: url(images/view.png);height:15px;width:30px;margin-right:25px;float:right;}
