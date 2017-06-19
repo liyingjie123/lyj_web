@@ -1,0 +1,35 @@
+#content{height:1000px;width:1240px;margin:30px 80px;}
+#xie{width:400px;height:20px;}
+#text{margin:30px 50px;width:1000px;height:950px;}
+#l{float:left;width:250px;}
+#flowerl1{width:220px;height:270px;margin:150px 0px;
+	background-image: url(images/荷花.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#flowerl2{width:220px;height:300px;margin:200px 0px;
+	background-image: url(images/mmexport1497774989685.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#flowerl3{width:240px;height:230px;margin:200px 0px;
+	background-image: url(images/花盒.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#m{float:left;width:580px;height:950px;margin:50px;}
+#r{float:left;width:250px;}
+#flowerr1{width:220px;height:300px;margin:150px 0px;
+	background-image: url(images/mmexport1497777191541.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#flowerr2{width:220px;height:300px;margin:200px 0px;
+	background-image: url(images/mmexport1497774897170.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#flowerr3{width:240px;height:230px;margin:200px 0px;
+	background-image: url(images/mmexport1497777162483.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#f1{width:400px;line-height:60px;float:left;font-size:20px;}
+#zw{width:690px;height:20px;margin-top:1400px; margin-left:35px;}
+#b{width:11px;height:18px;padding:10px 12px;
+	border:1px solid #522a06;margin:3px;float:left;}
+#f2{width:100px;line-height:60px;float:right;margin-left:80px;}

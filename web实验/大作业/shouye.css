@@ -1,0 +1,48 @@
+*{margin:0px;padding:0px;}
+#content{width:800px;float:left;}
+#oushi{width:850px;height:550px;margin:30px 40px;}
+#flowerf1{float:left;width:410px;height:410px;
+	background-image: url(images/oushi1.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;}
+#flowerf2{float:right;width:410px;height:410px;}
+#flower1{width:190px;height:220px;margin-bottom: 10px;
+	background-image: url(images/fashi.jpg);margin-left:190px;
+	background-size: 100% 100%;
+	border:white 3px dotted;
+	border-radius:50%;}
+#flower2{width:190px;height:190px;margin-top: 10px;
+	background-image: url(images/欧式插花2.jpg);margin-left:190px;
+	background-size: 100% 100%;
+	border:white 3px dotted;border-radius:50%;}
+#dongshi{width:850px;height:550px;margin:30px 40px;}
+#flowerr1{float:left;width:410px;height:410px;
+	background-image: url(images/中式古典插花1.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;}
+#flowerr2{float:right;width:410px;height:410px;}
+#flowerz1{width:190px;height:220px;margin-left:190px;margin-bottom: 10px;
+	background-image: url(images/中式插花2.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;
+	border-radius:50%;}
+#flowerj2{width:190px;height:190px;margin-top: 10px;
+	background-image: url(images/日式插花.jpg);
+	background-size: 100% 100%;margin-left:190px;
+	border:white 3px dotted;border-radius:50%;}
+#creat{width:850px;height:550px;margin:30px 40px;}
+#flowerc1{float:left;width:410px;height:410px;
+	background-image: url(images/杯花.jpg);
+	background-size: 100% 100%;
+	border:white 3px dotted;}
+#flowerc2{float:right;width:410px;height:410px;}
+#flowere1{width:190px;height:200px;margin-bottom: 10px;
+	background-image: url(images/蛋杯花.jpg);margin-left:190px;
+	background-size: 100% 100%;
+	border:white 3px dotted;
+	border-radius:50%;}
+#flowerb2{width:190px;height:190px;margin-top: 10px;
+	background-image: url(images/茶杯花.jpg);
+	background-size: 100% 100%;margin-left:190px;
+	border:white 3px dotted;border-radius:50%;}
+

@@ -1,0 +1,14 @@
+*{margin:0px;padding:0px;}
+body{background-image: url(images/bg1.jpeg);width:1080px;height:2000px;background-size: 100% 100%;}
+#banner{border:3px ridge;background-image: url(images/banner1.jpg);width:1248px;height:250px;background-size: 100% 100%;margin:0px 50px;}
+.logo{width:150px;height:60px;
+	background-image: url(images/logo1.png);
+	background-size: 100% 100%;
+position:absolute;left:57px;top:20px;}
+#search{width:180px;margin:50px 25px;border:3px inset;float:left;}
+.banner{border-radius:50%;border:white 3px solid;width:40px;padding:2px 7px;}
+a:link{color: #522a06; text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{color: #f9f603;text-decoration:underline;opacity:0.5;}
+a:active{text-decoration:none;}
+#foot{margin:0px 430px;padding:30px;width:600px;}
