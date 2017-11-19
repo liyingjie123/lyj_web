@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>comment</title> 
+	<script type="text/javascript">
+		var arrimg=document.getElementsByTagName("img");
+		var con=false,index,i;
+		var pl=['差劲','不咋地','一般','凑合','不错'];
+		function starPic(i){
+			if(i<3&&con==false)
+			{
+				for(index=0;index<i;++index)
+				{
+				arrimg[index].src="star1.png";
+				}
+				document.getElementById('ext').value=pl[i-1];
+			}
+			else if(i>2&&con==false)
+			{
+				for(index=0;index<i;++index){
+					arrimg[index].src="star2.png";
+				}document.getElementById('ext').value=pl[i-1];
+			}
+		}
+		function hide(i){
+			if(con==true) return;
+			else if(con==false)
+			{
+				for(index=0;index<i;++index){
+					arrimg[index].src="star0.png";
+			}document.getElementById('ext').value="";}
+		}
+		function qd(){
+			con=true;
+		}
+	</script>
+	<style type="text/css">
+	#kuang{
+		background: url(web.png);
+		width: 500px;
+		height: 280px;
+	}
+	#xing{
+		margin: 1px;
+		width: 22px;
+		height: 21px;
+
+		float: left;
+	}
+	#text{
+		position:absolute;
+		left:26px;
+        top: 82px;
+	}
+	#anniu{
+		position:absolute;
+		background: grey;
+		left:395px;
+        top: 256px;
+        border: 1px;
+	}
+	</style>
+</head>
+<body>
+	<form>
+		<div id="kuang">
+		<div style="position:absolute;left:27px;
+        top: 48px;">
+			<div id='xing' onmouseover="starPic(1);" onmouseout="hide(1);" onclick="qd(1);"><img src="star0.png"></div>
+			<div id='xing' onmouseover="starPic(2)" onmouseout="hide(2)" onclick="qd(2)"><img src="star0.png"></div>
+			<div id='xing' onmouseover="starPic(3)" onmouseout="hide(3)" onclick="qd(3)"><img src="star0.png"></div>
+			<div id='xing' onmouseover="starPic(4)" onmouseout="hide(4)" onclick="qd(4)"><img src="star0.png"></div>
+			<div id='xing' onmouseover="starPic(5)" onmouseout="hide(5)" onclick="qd(5)"><img src="star0.png"></div>
+		</div>
+		<div id="text">
+			<textarea id="ext" cols="62" style="height:166px" value="请填写评论">
+			</textarea>
+		</div>
+		<div id="anniu">
+			<input type="submit" value="公开评论"/><img src="sanjiao.png">
+		</div>
+	</div>	
+	</form>
+	
+</body>
+</html>
