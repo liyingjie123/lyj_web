@@ -1,0 +1,6 @@
+#picScroll{
+	white-space: nowrap;
+	overflow: hidden;
+	width: 600px;
+	height: :500px;
+}
