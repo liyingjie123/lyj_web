@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格</title>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		*{
+			font-size: 36px;
+		}
+		tr{
+			height: 30px;
+		}
+	</style>
+	<script type="text/javascript">
+	    var trr = document.getElementByTagName('tr');
+	    function upTd(){
+	    	var newnode = document.createElement("td");
+	    	trr.appendChild(newnode);
+	    }
+	    function downTd(){
+	    	var tdd=document.getElementByTagName("tr").lastChild;
+	    	trr.removeChild(tdd)
+	    }
+	</script>
+</head>
+<body>
+	<table width="1000px" border="1">
+		<tr height="30px">
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+	</table>
+	<input type="button" name="" id="add" value="添加一行" style="margin-left:840px; onclick=""/>
+	<input type="button" name="" id="delete" value="删除一行" style="margin-left:840px;"/>
+</body>
+</html>
