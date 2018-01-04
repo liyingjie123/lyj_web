@@ -1,0 +1,131 @@
+*{margin:0px;padding:0px;}
+#bg1{
+	width:1348px;
+	height:920px;
+	background-image: url(img/d_bg1.jpg);
+	background-size: 100% 100%;
+}
+#st1{
+	width:1348px;
+	height:30px;
+	background-image: url(img/st.png);
+	background-size: 100% 100%;
+}
+#cont{
+	width:1348px;
+	height:490px;
+}
+#wt1{
+	width:1348px;
+	height:35px;
+	margin-top:97px;
+	background-image: url(img/wt.png);
+	background-size: 100% 100%;
+}
+#name{
+	width: 101px;
+	height:24px;
+	margin-left: 20px;
+	padding: 3px;
+}
+#n{margin:3px 1px;float: right;}
+#menu{
+	width:81px;
+	height:20px;
+	margin: 30px 570px 0px 570px;
+	padding:10px 30px;
+	background-color: #FFF1;
+}
+
+	a:link {text-decoration:none;color: white}
+	a:visited {text-decoration:none;color: white}
+	a:hover {text-decoration:none;color: white}
+	a:active {text-decoration:none;color: white}
+
+#menu2{
+	display: none;
+	width:1348px;
+	background-color: #8FF5;
+}
+ul{list-style-type:none;}
+#l{
+	height:20px;
+	width:50px;
+	padding: 15px 15px;
+	margin: 0px 600px;
+	
+}
+#welcome{
+	padding: 5px 20px;
+	width:1288px;
+}
+h1{
+	margin: 3px 370px;
+}
+#sy{
+	margin: 10px 300px 2px 300px;
+	border:#8FF5 3px dotted;border-radius:70%;
+	width: 608px;
+	height:475px;
+	background-image: url(img/sy.jpg);
+	background-size: 100% 100%;
+}
+#time{
+	overflow: hidden;
+	white-space: nowrap;
+    width:608px;
+    height:475px;
+    border-radius:70%;
+    position: relative;
+    display: none;
+    float:left;
+}
+#xq{
+	overflow: hidden;
+	white-space: nowrap;
+    width:608px;
+    height:475px;
+    border-radius:70%;
+    position: relative;
+    display: none;
+    float:left;
+}
+#dream{
+	overflow: hidden;
+	white-space: nowrap;
+    width:608px;
+    height:475px;
+    border-radius:70%;
+    position: relative;
+    display: none;
+    float:left;
+}
+#t{
+    width:608px;
+    height:475px;  
+}
+/*进度条*/
+.container{  
+   width:450px;  
+   border:1px solid #6C9C2C;  
+   height:25px;  
+ }
+#bar{  
+   background:#95CA0D;  
+   float:left; 
+   height:100%;  
+   text-align:center;  
+   line-height:150%; 
+ }  
+ .container{  
+   width:450px;  
+   border:1px solid #6C9C2C;  
+   height:25px;  
+ }
+#bar{  
+   background:#95CA0D;  
+   float:left; 
+   height:100%;  
+   text-align:center;  
+   line-height:150%; 
+ }

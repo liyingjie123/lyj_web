@@ -1,0 +1,164 @@
+<!--1、导航条效果：1-2：下拉菜单
+ 4、幻灯片效果 
+ 7、进度条效果-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人主页</title>
+	<meta charset="utf-8" />
+	<link href="qimo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div id="bg1">
+		<div id="st1">
+			<div id="name">
+				<span>
+					<img src="img/小房子_副本.png" width="25px" height="25px"/>
+				</span>
+				<div id="n">氺魄涵黛</div>
+			</div>
+		</div>
+		<div id="cont1">
+			<div id="menu">
+				<a href="#" class="nu">SHOW ME</a>
+			</div>
+			<div id="menu2">
+				<ul id="main-menu">
+					<a href="#" onclick="time()"><li id="l">旧时光</li></a>
+					<a href="#" onclick="xq()"><li id="l"><a href="">小确幸</li></a>
+					<a href="#" onclick="dream()"><li id="l"><a href="">梦归处</li></a>
+				</ul>
+			</div>
+			<div>
+				<div id="welcome">
+					<h1>Hello,Welcome to my world</h1>
+					<!--此窗口幻灯片效果-->
+					<div id="sy">
+						<div id="time" onmouseover="clearInterval(g)" onmouseout="x()">
+							<span id="demoimg">
+								<img src="img/j1.jpg" id="t"/>
+								<img src="img/j2.jpg" id="t"/>
+								<img src="img/j3.jpg" id="t"/>
+								<img src="img/j5.jpg" id="t"/>
+								<img src="img/j6.jpg" id="t"/>
+								<img src="img/j7.jpg" id="t"/>
+							</span>
+							<span id="picScroll2"></span>
+						</div>
+						<!--"xq"和"dream"的幻灯片不知什么原因都不执行-->
+						<div id="xq" onmouseover="clearInterval(g)" onmouseout="x()">
+							<span id="demoimg">
+								<img src="img/x1.jpg" id="t"/>
+								<img src="img/x2.jpg" id="t"/>
+								<img src="img/x3.jpg" id="t"/>
+								<img src="img/x4.jpg" id="t"/>
+								<img src="img/x5.jpg" id="t"/>
+								<img src="img/x6.jpg" id="t"/>
+							</span>
+							<span id="picScroll2"></span>
+						</div>
+						<div id="dream" onmouseover="clearInterval(g)" onmouseout="x()">
+							<span id="demoimg">
+								<img src="img/m1.jpg" id="t"/>
+								<img src="img/m2.jpg" id="t"/>
+								<img src="img/m3.jpg" id="t"/>
+								<img src="img/m5.jpg" id="t"/>
+							</span>
+							<span id="picScroll2"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--进度条-->
+		<div class="container"> 
+    		<div id="bar" style="width:0%;"></div>  
+    	</div>  
+  		<span id="total"></span>
+  		<!--页面加载过程中以及结束后，都不能运行上面的代码，所以改用按钮执行-->
+  		<button onclick="run()">进度</button> 
+	</div>
+	<!--此处主要为time的幻灯片效果
+	因为qx和dream不显示，而没写其滚动代码-->
+	<script type = "text/javascript">
+	    window.onload=function(){
+	    	var divContent1=document.getElementById("menu2");
+	    	var collapseDiv=document.getElementById("menu");
+
+	    	collapseDiv.onclick=function(){
+	    		if(divContent1.style.display=="none")
+	    		{
+	    			divContent1.style.display="block";
+	    		}
+	    		else
+	    		{
+	    			divContent1.style.display="none";
+	    		}
+	    	}
+	    }
+	</script>
+	<script>
+	function time(){
+		var divContent1=document.getElementById("time");
+		if(divContent1.style.display=="none")
+	    		{
+	    			divContent1.style.display="block";
+	    		}
+	    		else
+	    		{
+	    			divContent1.style.display="none";
+	    		}
+	}
+	function xq(){
+		var divContent1=document.getElementById("xq");
+		if(divContent1.style.display=="none")
+	    		{
+	    			divContent1.style.display="block";
+	    		}
+	    		else
+	    		{
+	    			divContent1.style.display="none";
+	    		}
+	}
+	function dream(){
+		var divContent1=document.getElementById("dream");
+		if(divContent1.style.display=="none")
+	    		{
+	    			divContent1.style.display="block";
+	    		}
+	    		else
+	    		{
+	    			divContent1.style.display="none";
+	    		}
+	}
+    var tab=document.getElementById("time");
+      var tab1=document.getElementById("demoimg");
+      var tab2=document.getElementById("picScroll2");
+      var g;
+      tab2.innerHTML=tab1.innerHTML;
+      function changeToleft () {
+        if(tab2.offsetWidth-tab.scrollLeft<=0){
+          tab.scrollLeft-=tab1.offsetWidth;
+        }
+        else{
+        tab.scrollLeft++;
+      }
+      }
+      function x() {g=setInterval("changeToleft ()",10)};
+</script>
+<!--进度条-->
+<script type="text/javascript">  
+  function run(){  
+        var bar = document.getElementById("bar"); 
+        var total = document.getElementById("total"); 
+    bar.style.width=parseInt(bar.style.width) + 1 + "%";  
+    total.innerHTML = bar.style.width; 
+    if(bar.style.width == "100%"){  
+      window.clearTimeout(timeout); 
+      return; 
+    } 
+    var timeout=window.setTimeout("run()",100); 
+  } 
+</script> 
+</body>
+</html>
